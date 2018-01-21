@@ -9,10 +9,10 @@ const Background = styled.div`
 
 const Logo = styled.div`
   color: ${props => props.c};
-  font-size: 3rem;
+  font-size: ${props => props.fs};
   text-transform: ${props => props.tt};
   font-weight: ${props => props.fw};
-  display: inline;
+  display: ${props => props.dis};
   padding-left: 15px;
 `
 
@@ -25,10 +25,10 @@ const Container = styled.div`padding: 2%;`
 
 const Top = () => (
   <div>
-    <Background c="linear-gradient(to right, #00d2ff, #3a7bd5)">
+    <Background c="#3a7bd5">
       <Container>
         <LogoImage src={logo} />
-        <Logo c="#fff" fw="800" tt="none">
+        <Logo c="#fff" fw="800" dis="inline" tt="none" fs="3rem">
           Camlytics
         </Logo>
       </Container>
