@@ -1,6 +1,6 @@
 # camlytics
-## Bringing analytics to retail using computer vision
-## Submission @ PennApps Retro XVII 
+**Bringing analytics to retail using computer vision**
+**Submission @ PennApps Retro XVII**
 
 
 ## Inspiration
